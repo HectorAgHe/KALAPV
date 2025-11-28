@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Behaviors\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Mappings\" />
+    <Folder Include="Common\Models\" />
+    <Folder Include="Features\Auth\Commands\Login\" />
+    <Folder Include="Features\Auth\Queries\GetCurrentUser\" />
+    <Folder Include="Features\Categories\Commands\CreateCategory\" />
+    <Folder Include="Features\Categories\Commands\UpdateCategory\" />
+    <Folder Include="Features\Categories\Queries\GetCategories\" />
+    <Folder Include="Features\Categories\Queries\GetCategoriesById\" />
+    <Folder Include="Features\Products\Commands\CreateProduct\" />
+    <Folder Include="Features\Products\Commands\DeleteProduct\" />
+    <Folder Include="Features\Products\Commands\UpdateProduct\" />
+    <Folder Include="Features\Products\Queries\GetProducts\" />
+    <Folder Include="Features\Products\Queries\GetProductById\" />
+    <Folder Include="Features\Products\Queries\GetProductsByCategory\" />
+    <Folder Include="Features\Sales\Commands\CreateSale\" />
+    <Folder Include="Features\Sales\Queries\GetSales\" />
+  </ItemGroup>
+
+</Project>

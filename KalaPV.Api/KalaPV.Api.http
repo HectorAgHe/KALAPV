@@ -1,0 +1,6 @@
+@KalaPV.Api_HostAddress = http://localhost:5219
+
+GET {{KalaPV.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
