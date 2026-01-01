@@ -10,7 +10,6 @@
     <Folder Include="DTOs\Categories\" />
     <Folder Include="DTOs\Common\" />
     <Folder Include="DTOs\Products\" />
-    <Folder Include="Entities\" />
     <Folder Include="Interfaces\Services\" />
     <Folder Include="Interfaces\Repositories\" />
     <Folder Include="Enums\" />
